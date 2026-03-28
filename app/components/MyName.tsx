@@ -7,7 +7,7 @@ type MyNameProps = {
 }
 
 const MyName: FC<MyNameProps> = ({name, age, birthday}) => (
-    <p>Sou o {name}, tenho {age} anos, por que nasci em {birthday.toLocaleDateString("pt-BR")}</p>
+    <p className="p-1">I am {name}, I am {age} years old, because I was born in {birthday.toLocaleDateString("en")}</p>
 )
 
 export default MyName
